@@ -336,5 +336,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FFooter%2FFooter.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Footer/Footer.tsx"
+  },
+  "/.deco/blocks/pages-Culturas-477130.json": {
+    "name": "Culturas",
+    "path": "/culturas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
