@@ -18,12 +18,14 @@ export default function Lugar(props: Props) {
     return (
         <>
 
-            <div>
+            <div class="pb-[100px]">
                 {props.sections.map((section, index) => (
                     <div class="flex justify-center flex-col" key={index}>
                         <img src={section.src} alt={section.alt} />
-                        <h4>{section.cta}</h4>
-                        <p class="bg-black text-white"> Confira a temperatura em Florianópolis: {section.temperature?.celsius}</p>
+                        <div class="bg-black flex text-center flex-col" >
+                        <h4 class="text-[40px] text-white">{section.cta}</h4>
+                        <p class="text-white"> Confira a temperatura {section.temperature?.celsius} ºC</p>
+                        </div>
                     </div>
                 ))}
 
