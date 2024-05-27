@@ -1,32 +1,26 @@
-interface Props {
-    title?: string;
+export interface Props {
+    /**
+     * @title Cupom
+     */
+    coupon: string;
+    /**
+    * @title Descrição
+    */
     description?: string;
-    cupom?: string;
+
 }
 
-export default function Cupom({
-    title = "Exclusive Offer",
-    description = "Limited time offer! Get 10% off your next purchase.",
-    cupom = "JACKET10",
-
-}: Props,
-) {
+export default function Coupon({ coupon, description = "Cupom de primeira compra!" }: Props) {
     return (
-        <>
-            <div class="w-full bg-black flex">
-                <div class="container justify-end max-w-[300px] w-full p-4">
-                    <h3 class="text-white">{title}</h3>
-                    <p class="text-gray-600">{description}</p>
-                    <div
-                        id="myInput"
-                        class="bg-black text-gray-100 mt-2 p-2 border border-gray-500 cursor-pointer"
-                    >
-                        {cupom}
-                    </div>
-                </div>
-            </div>
-        </>
+        <div class="w-full container px-4 py-8 flex flex-col gap-6 lg:py-10 lg:px-0 items-center">
+            <h2 class="leading-6 lg:leading-8 text-base-content lg:text-3xl text-center">
+                {description}
+            </h2>
+
+            <button class="relative font-medium lg:text-[20px] px-4 py-2">
+                {coupon}
+            </button>
+
+        </div>
     );
 }
-
-
