@@ -1,5 +1,3 @@
-
-
 export interface IntroProps {
   text: string;
   subheading?: string;

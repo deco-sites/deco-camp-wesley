@@ -226,18 +226,20 @@ function JS({
   infinite = false,
 }: Props) {
   const sendToMasterData = async () => {
-    console.log("it works!")
+    console.log("it works!");
   };
 
   return (
     <>
-    <script
-      src={scriptAsDataURI(setup, { rootId, scroll, interval, infinite })}
-      defer
-    />
-    <div>
-        <button onClick={sendToMasterData}>enviando pro masterdata com action</button>
-    </div>
+      <script
+        src={scriptAsDataURI(setup, { rootId, scroll, interval, infinite })}
+        defer
+      />
+      <div>
+        <button onClick={sendToMasterData}>
+          enviando pro masterdata com action
+        </button>
+      </div>
     </>
   );
 }

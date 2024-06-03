@@ -37,7 +37,6 @@ function Newsletter(
       const email =
         (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
 
-
       await invoke.vtex.actions.masterdata.createDocument({
         acronym: "NL",
         data: {
