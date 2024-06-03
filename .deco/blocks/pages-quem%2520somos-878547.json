@@ -6,6 +6,16 @@
       "__resolveType": "site/sections/Content/Cupom.tsx",
       "benefits": [],
       "coupon": "10-OFF"
+    },
+    {
+      "__resolveType": "site/sections/Content/HeroBanner.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/24ed0a5a-1ebd-4cdb-a2b3-45a0b8e29ded",
+      "cta": {
+        "title": "Conheça nossas jaquetas",
+        "button": "Conferir",
+        "href": "/jaquetas"
+      },
+      "alt": "jaquetas"
     }
   ],
   "seo": {
