@@ -25,6 +25,7 @@
       "name": "Pages",
       "pinned": true,
       "icon": "files",
+<<<<<<< HEAD
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -84,6 +85,9 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
+=======
+      "layout": [],
+>>>>>>> bcbd9ad7838ada55f4b84db7ef65602adcabf2ec
       "tabs": {
         "pages::List::list::List::%7B%7D": {
           "name": "List",
@@ -1852,10 +1856,13 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-Culturas-477130.json",
-      "name": "Culturas",
+      "id": "/.deco/blocks/pages-Quem%2520Somos-425304.json",
+      "name": "Quem Somos",
       "pinned": false,
       "icon": "file",
+<<<<<<< HEAD
+      "layout": [],
+=======
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -1902,12 +1909,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Properties::list::Properties::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1923,12 +1930,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Preview::world::Preview::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1944,25 +1951,26 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
+>>>>>>> bcbd9ad7838ada55f4b84db7ef65602adcabf2ec
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "id": "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2Fpages-Culturas-477130.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-Quem%252520Somos-425304.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1970,35 +1978,30 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-quem%2520somos-878547.json",
-      "name": "Quem Somos",
-      "pinned": false,
-      "icon": "file",
+      "id": "deco-records-space",
+      "name": "Records",
+      "pinned": true,
+      "icon": "database",
       "layout": [],
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-quem%252520somos-878547.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
+        "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D": {
+          "name": "Deco Records",
+          "icon": "database",
           "render": "function",
-          "viewId": "Properties",
-          "id": "%2F.deco%2Fblocks%2Fpages-quem%252520somos-878547.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-quem%252520somos-878547.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2Fpages-quem%252520somos-878547.json::Preview::world::Preview::%7B%7D",
+          "viewId": "Deco Records",
+          "id": "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D",
           "state": {
             "__signal": null
           }
         }
-      }
+      },
+      "tags": [
+        {
+          "label": "BETA",
+          "color": "positive"
+        }
+      ],
+      "category": "Content"
     }
   ]
 }
