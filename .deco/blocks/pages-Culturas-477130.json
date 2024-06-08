@@ -34,6 +34,9 @@
         "lat": 10,
         "long": 14
       }
+    },
+    {
+      "__resolveType": "site/sections/Content/Hero.tsx"
     }
   ],
   "seo": {

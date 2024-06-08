@@ -1,3 +1,6 @@
+import { ImageWidget } from "apps/admin/widgets.ts";
+import { Picture, Source } from "apps/website/components/Picture.tsx";
+
 interface CTA {
   title?: string;
   content?: string;
@@ -6,17 +9,40 @@ interface CTA {
 }
 
 export interface Props {
-  image?: string;
+  imageDesktop?: ImageWidget;
+  imageMobile?: ImageWidget;
+  lcp?: boolean;
   alt?: string;
   cta?: CTA;
 }
 
 export default function HeroBanner(props: Props) {
   return (
-    <div className="pb-[100px]">
+    <div>
       <div className="flex justify-center flex-row container">
-        <div class="w-7/12">
-          <img src={props.image} alt={props.alt} />
+        <div>
+        <Picture preload={props.lcp}>
+        <Source
+          media="(max-width: 767px)"
+          fetchPriority={props.lcp ? "high" : "auto"}
+          src={props.imageMobile}
+          width={430}
+          height={590}
+        />
+        <Source
+          media="(min-width: 768px)"
+          fetchPriority={props.lcp ? "high" : "auto"}
+          src={props.imageDesktop}
+          width={1440}
+          height={600}
+        />
+        <img
+          class="object-cover w-full h-full"
+          loading={props.lcp ? "eager" : "lazy"}
+          src={props.imageDesktop}
+          alt={props.alt}
+        />
+      </Picture>
         </div>
         <div className="bg-black flex text-center flex-col  w-5/12 justify-center">
           {props.cta && (

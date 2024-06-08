@@ -8,18 +8,8 @@
       "titleTemplate": "Quem somos"
     },
     {
-      "__resolveType": "site/sections/Content/Hero.tsx",
-      "title": "<h1><span style=\"font-size: 36pt;\" data-mce-style=\"font-size: 36pt;\">\"Cultural Connections\"&nbsp;</span></h1><p><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><br data-mce-bogus=\"1\"></span></p>",
-      "description": "\"Cultural Connections\" is an online store that seeks to celebrate cultural diversity and promote inclusion through the sale of products and experiences inspired by different cultures from around Brazil. The store not only offers unique products but also aims to create an interactive platform where people can learn, share, and connect through meaningful cultural experiences.",
-      "placement": "left",
-      "cta": [
-        {
-          "variant": "Normal",
-          "id": "1",
-          "href": "/conhecer",
-          "text": "To know"
-        }
-      ]
+      "__resolveType": "site/sections/Content/HeroBanner.tsx",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kXbCe4K_5pTeiUxAplfXoxCIcXVGI8OgbA&s"
     }
   ],
   "seo": {
