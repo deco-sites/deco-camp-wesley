@@ -3,13 +3,16 @@
   "path": "/culturas",
   "sections": [
     {
+      "__resolveType": "Header - 01"
+    },
+    {
       "__resolveType": "site/sections/Content/Intro.tsx",
-      "text": "Boi de mamão",
-      "subheading": "é o mais conhecido evento folclórico de Santa Catarina. É um misto de dança e demonstração de perícia dos praticantes, similar ao \"Bumba meu boi\" encontrado no nordeste brasileiro. Os participantes se fantasiam de bonecos como a bernúncia (que engole as pessoas), a Maricota (boneca gigante), os vaqueiros (que montados em cavalos de pau, laçam o boi)",
-      "alignment": "Center",
       "temperature": {
         "__resolveType": "weather/loaders/temperature.ts"
-      }
+      },
+      "text": "Boi de mamão",
+      "subheading": "é o mais conhecido evento folclórico de Santa Catarina. É um misto de dança e demonstração de perícia dos praticantes, similar ao \"Bumba meu boi\" encontrado no nordeste brasileiro. Os participantes se fantasiam de bonecos como a bernúncia (que engole as pessoas), a Maricota (boneca gigante), os vaqueiros (que montados em cavalos de pau, laçam o boi)",
+      "alignment": "Center"
     },
     {
       "__resolveType": "site/sections/Content/Lugar.tsx",
@@ -31,6 +34,9 @@
         "lat": 10,
         "long": 14
       }
+    },
+    {
+      "__resolveType": "Footer - 01"
     }
   ],
   "seo": {

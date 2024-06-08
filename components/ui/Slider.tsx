@@ -235,11 +235,6 @@ function JS({
         src={scriptAsDataURI(setup, { rootId, scroll, interval, infinite })}
         defer
       />
-      <div>
-        <button onClick={sendToMasterData}>
-          enviando pro masterdata com action
-        </button>
-      </div>
     </>
   );
 }
