@@ -9,7 +9,7 @@ export default async function totalLikesLoader(
     method: "GET",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": "sergio",
+      "x-api-key": "wesley",
     },
   });
 
