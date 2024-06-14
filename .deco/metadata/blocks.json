@@ -348,5 +348,11 @@
     "path": "/quem-somos",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Stats-991656.json": {
+    "name": "Stats",
+    "path": "/stats",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

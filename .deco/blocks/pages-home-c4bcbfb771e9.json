@@ -5,6 +5,12 @@
       "__resolveType": "Header - 01"
     },
     {
+      "__resolveType": "site/sections/ProductAd.tsx",
+      "product": {
+        "__resolveType": "PDP Loader"
+      }
+    },
+    {
       "__resolveType": "Footer - 04"
     }
   ],

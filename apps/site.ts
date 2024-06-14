@@ -9,6 +9,7 @@ import { Section } from "deco/blocks/section.ts";
 import type { App as A, AppContext as AC } from "deco/mod.ts";
 import { rgb24 } from "std/fmt/colors.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";
+import { Secret } from "apps/website/loaders/secret.ts";
 
 export type Props = {
   /**
@@ -17,6 +18,7 @@ export type Props = {
    * @default custom
    */
   platform: Platform;
+  secretLikes: Secret;
   theme?: Section;
 } & CommerceProps;
 
@@ -57,12 +59,6 @@ const color = (platform: string) => {
 
 let firstRun = true;
 
-/**
- * @title Site
- * @description Start your site from a template or from scratch.
- * @category Tool
- * @logo https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1/0ac02239-61e6-4289-8a36-e78c0975bcc8
- */
 export default function Site(
   { theme, ...state }: Props,
 ): A<Manifest, Props, [ReturnType<typeof commerce>]> {

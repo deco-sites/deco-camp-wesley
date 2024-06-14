@@ -115,21 +115,6 @@ function Navbar(
             ACCOUNT
           </a>
         )}
-        {!buttons?.hideWishlistButton && (
-          <a
-            class="flex items-center text-xs font-thin"
-            href="/wishlist"
-            aria-label="Wishlist"
-          >
-            <button
-              class="flex btn btn-circle btn-sm btn-ghost gap-1"
-              aria-label="Wishlist"
-            >
-              <Icon id="Heart" size={24} strokeWidth={0.4} />
-            </button>
-            WISHLIST
-          </a>
-        )}
         {!buttons?.hideCartButton && (
           <div class="flex items-center text-xs font-thin">
             {platform === "vtex" && <CartButtonVTEX />}

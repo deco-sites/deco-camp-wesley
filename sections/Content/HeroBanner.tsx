@@ -21,28 +21,28 @@ export default function HeroBanner(props: Props) {
     <div>
       <div className="flex justify-center flex-row container">
         <div>
-        <Picture preload={props.lcp}>
-        <Source
-          media="(max-width: 767px)"
-          fetchPriority={props.lcp ? "high" : "auto"}
-          src={props.imageMobile}
-          width={430}
-          height={590}
-        />
-        <Source
-          media="(min-width: 768px)"
-          fetchPriority={props.lcp ? "high" : "auto"}
-          src={props.imageDesktop}
-          width={1440}
-          height={600}
-        />
-        <img
-          class="object-cover w-full h-full"
-          loading={props.lcp ? "eager" : "lazy"}
-          src={props.imageDesktop}
-          alt={props.alt}
-        />
-      </Picture>
+          <Picture preload={props.lcp}>
+            <Source
+              media="(max-width: 767px)"
+              fetchPriority={props.lcp ? "high" : "auto"}
+              src={props.imageMobile}
+              width={430}
+              height={590}
+            />
+            <Source
+              media="(min-width: 768px)"
+              fetchPriority={props.lcp ? "high" : "auto"}
+              src={props.imageDesktop}
+              width={1440}
+              height={600}
+            />
+            <img
+              class="object-cover w-full h-full"
+              loading={props.lcp ? "eager" : "lazy"}
+              src={props.imageDesktop}
+              alt={props.alt}
+            />
+          </Picture>
         </div>
         <div className="bg-black flex text-center flex-col  w-5/12 justify-center">
           {props.cta && (
