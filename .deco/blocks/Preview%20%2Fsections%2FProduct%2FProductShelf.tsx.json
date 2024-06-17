@@ -1,6 +1,44 @@
 {
   "__resolveType": "site/sections/Product/ProductShelf.tsx",
-  "products": [],
+  "products": [
+    {
+      "@type": "Product",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "image": [],
+          "video": []
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating"
+      },
+      "brand": {
+        "@type": "Brand"
+      },
+      "isRelatedTo": {
+        "__resolveType": "vtex/loaders/workflow/products.ts",
+        "page": 1,
+        "pagesize": 1
+      },
+      "isSimilarTo": {
+        "__resolveType": "vtex/loaders/workflow/products.ts",
+        "page": 1
+      },
+      "isVariantOf": {
+        "@type": "ProductGroup",
+        "hasVariant": [],
+        "additionalProperty": []
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "offers": []
+      },
+      "review": [],
+      "isAccessoryOrSparePartFor": [],
+      "questions": []
+    }
+  ],
   "layout": {
     "numberOfSliders": {
       "mobile": 1,

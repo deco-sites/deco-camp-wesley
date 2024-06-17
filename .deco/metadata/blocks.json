@@ -353,9 +353,15 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Header/Header.tsx"
   },
-  "/.deco/blocks/pages-Quem%2520somos-970002.json": {
-    "name": "Quem somos",
+  "/.deco/blocks/pages-quem%2520somos-355437.json": {
+    "name": "quem somos",
     "path": "/quem-somos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Test-988026.json": {
+    "name": "Test",
+    "path": "/test",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }

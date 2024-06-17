@@ -11,7 +11,7 @@ export default function Coupon({
   return (
     <section class="relative bg-white text-black py-20 max-w-screen">
       <div class="mx-6 lg:container lg:mx-auto flex justify-center items-center flex-col gap-4">
-        <p> Utilize o código  <CouponButton couponCode={coupon} /> e receba o desconto em qualquer serviço que escolher.</p>
+        <p> Utilize o código <span><CouponButton couponCode={coupon} /> </span> e receba o desconto em qualquer serviço que escolher.</p>
       </div>
     </section>
   );

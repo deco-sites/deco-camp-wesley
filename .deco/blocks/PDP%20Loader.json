@@ -1,10 +1,6 @@
 {
   "data": {
-    "slug": {
-      "__resolveType": "website/functions/requestToParam.ts",
-      "param": "https://local--deco-camp-wesley.deco.site/camisa-jaqueta-pure/p?skuId=476"
-    },
-    "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+    "__resolveType": "PDP Loader"
   },
   "extensions": [
     {

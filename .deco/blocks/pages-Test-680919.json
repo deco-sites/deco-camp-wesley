@@ -1,6 +1,6 @@
 {
-  "name": "Quem somos",
-  "path": "/quem-somos",
+  "name": "Test",
+  "path": "/test",
   "sections": [],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
