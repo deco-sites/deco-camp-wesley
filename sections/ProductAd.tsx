@@ -9,7 +9,7 @@ export function ErrorFallback() {
       >
         <img
           class="card"
-          src={asset("image/ilha.jpg")}
+          src={asset("image/ilha.jpeg")}
           width={250}
           height={250}
           loading="lazy"
