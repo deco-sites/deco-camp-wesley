@@ -19,7 +19,6 @@ export default function Coupon(
       </h2>
 
       <button class="relative font-medium lg:text-[20px] px-4 py-2">
-    
       </button>
     </div>
   );

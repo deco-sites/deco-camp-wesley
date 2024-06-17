@@ -16,7 +16,7 @@ export default function ({ github }: Props) {
           <thead class="bg-gray-100">
             <tr>
               <th class="px-6 py-3 text-xs font-medium text-left text-gray-500 uppercase tracking-wider">
-                Informa o
+                Informação
               </th>
               <th class="px-6 py-3 text-xs font-medium text-left text-gray-500 uppercase tracking-wider">
                 Valor
@@ -26,7 +26,7 @@ export default function ({ github }: Props) {
           <tbody>
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">
-                Propriet rio
+                Proprietário
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
                 {github.owner}
@@ -34,7 +34,7 @@ export default function ({ github }: Props) {
             </tr>
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">
-                Nome do reposit rio
+                Nome do repositório
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
                 {github.repo}
@@ -42,7 +42,7 @@ export default function ({ github }: Props) {
             </tr>
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">
-                Última atualiza o
+                Última atualizado
               </td>
             </tr>
             <tr>
@@ -52,7 +52,7 @@ export default function ({ github }: Props) {
             </tr>
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">
-                Último coment rio
+                Último comentário
               </td>
             </tr>
             <tr>

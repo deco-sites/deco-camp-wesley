@@ -137,7 +137,7 @@ export default function ProductAd({
                 class="tooltip absolute top-0 right-0 m-3 tooltip-left z-50"
                 data-tip={!adDescription ? description : adDescription}
               >
-                <button class="btn">Saiba mais</button>
+                <button class="btn">know more</button>
               </div>
             )}
         </div>
