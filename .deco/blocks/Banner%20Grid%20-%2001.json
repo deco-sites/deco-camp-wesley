@@ -1,16 +1,16 @@
 {
   "banners": [
     {
-      "alt": "a",
-      "href": "a",
       "srcMobile": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/tqqpyuqan0nuz617xzyp",
-      "srcDesktop": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/tqqpyuqan0nuz617xzyp"
+      "srcDesktop": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/tqqpyuqan0nuz617xzyp",
+      "alt": "#",
+      "href": "/"
     },
     {
-      "alt": "a",
-      "href": "a",
       "srcMobile": "https://static.ndmais.com.br/2021/06/tainha-la-canoa-800x800.jpg",
-      "srcDesktop": "https://static.ndmais.com.br/2021/06/tainha-la-canoa-800x800.jpg"
+      "srcDesktop": "https://static.ndmais.com.br/2021/06/tainha-la-canoa-800x800.jpg",
+      "alt": "#",
+      "href": "/"
     }
   ],
   "borderRadius": {
@@ -18,7 +18,7 @@
     "desktop": "3xl"
   },
   "itemsPerLine": {
-    "mobile": 2,
+    "mobile": 1,
     "desktop": 2
   },
   "__resolveType": "site/sections/Images/BannerGrid.tsx",

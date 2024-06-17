@@ -39,6 +39,15 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Conexões culturais",
+      "titleTemplate": "Conexões culturais",
+      "description": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "descriptionTemplate": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/cfd265fe-169a-434f-9e25-1b3374805a2b",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/b39b10b5-7996-421e-8740-691a7bb39290"
     }
   ],
   "seo": {

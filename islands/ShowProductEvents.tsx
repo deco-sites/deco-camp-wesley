@@ -23,10 +23,11 @@ export default function ShowProductEvents() {
   }, [actualProductID]);
 
   return (
-    <div class="container px-5 flex flex-col items-center">
+    <div class="container px-5 flex flex-col items-center bg-black">
       <label className="form-control w-full max-w-xs">
         <div className="label justify-center">
-          <span className="label-text">Digite o ID do Produto</span>
+          <span className="label-text text-white">Enter the Product ID
+          </span>
         </div>
         <input
           type="text"
@@ -43,8 +44,8 @@ export default function ShowProductEvents() {
           </li>
         ))}
       </ul>
-      <div class="text-lg py-5">
-        Total de Likes: {likes.value?.product}
+      <div class="text-lg py-5 text-white font-bold">
+      I totally liked this: {likes.value?.product}
       </div>
     </div>
   );

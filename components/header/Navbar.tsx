@@ -67,18 +67,16 @@ function Navbar(
 
   // Desktop header
   return (
-    <div class="hidden sm:grid sm:grid-cols-3 items-center border-b border-base-200 w-full px-6">
+    <div class="container hidden sm:grid sm:grid-cols-3 items-center w-full px-6">
       <ul
-        class={`flex gap-6 col-span-1 ${
-          logoPosition === "left" ? "justify-center" : "justify-start"
-        }`}
+        class={`flex gap-6 col-span-1 ${logoPosition === "left" ? "justify-center" : "justify-start"
+          }`}
       >
         {items.map((item) => <NavItem item={item} />)}
       </ul>
       <div
-        class={`flex ${
-          logoPosition === "left" ? "justify-start -order-1" : "justify-center"
-        }`}
+        class={`flex ${logoPosition === "left" ? "justify-start -order-1" : "justify-center"
+          }`}
       >
         {logo && (
           <a
@@ -86,7 +84,12 @@ function Navbar(
             aria-label="Store logo"
             class="block"
           >
-           <p>{logo}</p>
+            <Image
+              src={logo.src}
+              alt={logo.alt}
+              width={logo.width || 200}
+              height={logo.height || 23}
+            />
           </a>
         )}
       </div>
@@ -110,17 +113,17 @@ function Navbar(
             ACCOUNT
           </a>
         )}
-         {!buttons?.hideAccountButton && (
-          <a
-            class="flex items-center text-xs font-thin text-white"
-            href="/stats"
-            aria-label="Account"
-          >
-            <div class="flex btn btn-circle btn-sm btn-ghost gap-1">
-              <Icon id="Friends" size={20} strokeWidth={0.4} />
-            </div>
-          </a>
-        )}
+
+        <a
+          class="flex items-center text-xs font-thin text-white"
+          href="/stats"
+          aria-label="stats"
+        >
+          <div class="flex btn btn-circle btn-sm btn-ghost gap-1">
+            <Icon id="Friends" size={20} strokeWidth={0.4} />
+          </div>
+        </a>
+
         {!buttons?.hideCartButton && (
           <div class="flex items-center text-xs font-thin text-white">
             {platform === "vtex" && <CartButtonVTEX />}

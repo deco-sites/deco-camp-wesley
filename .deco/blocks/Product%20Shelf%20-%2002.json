@@ -4,8 +4,8 @@
     "headerfontSize": "Normal",
     "headerAlignment": "left",
     "numberOfSliders": {
-      "mobile": 2,
-      "desktop": 6
+      "desktop": 3,
+      "mobile": 1
     },
     "showArrows": true
   },

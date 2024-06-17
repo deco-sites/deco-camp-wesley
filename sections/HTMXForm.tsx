@@ -38,7 +38,7 @@ export default function HTMXForm({
     return (
         <>
             <form 
-                class="container"
+                class="container bg-black md:p-10"
                 hx-on="htmx:beforeRequest: disableForm, htmx:afterRequest: enableForm"
                 hx-post={useSection({
                     props: {
@@ -49,16 +49,16 @@ export default function HTMXForm({
                 hx-target="closest section"
                 hx-indicator="#submitButton"
             >
-                <label class="form-control">
+                <label class="form-control ">
                     <div class="label">
-                        <span class="label-text">reminder:</span>
+                        <span class="label-text text-white">Reminder:</span>
                     </div>
                     <textarea 
                         name="reminder"
                         class="reminder textarea textarea-bordered h-24" 
                         required
                         minLength={5}
-                        placeholder="Escreva um lembrete"
+                        placeholder="Write a reminder"
                     />
                 </label>
                 <button 

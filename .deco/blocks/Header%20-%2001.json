@@ -4,8 +4,9 @@
   },
   "logo": {
     "alt": "conexoes culturais",
-    "width": 100,
-    "height": 16
+    "width": 200,
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/5ca45f59-2abc-4e2a-b4e5-c436b2a5c1b8",
+    "height": 90
   },
   "alerts": [
     "Use this template to create your store at deco.cx"

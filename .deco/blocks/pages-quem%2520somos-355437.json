@@ -3,14 +3,16 @@
   "path": "/quem-somos",
   "sections": [
     {
-      "__resolveType": "Header - 01"
-    },
-    {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "title": "Quem somos",
       "description": "pagina quem somos",
       "titleTemplate": "Quem somos",
-      "descriptionTemplate": "Quem somos"
+      "descriptionTemplate": "Quem somos",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/993f976f-392c-4506-b138-4f6f176ea06a",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/f867e484-a816-4c94-9761-eb8cde7cc7cc"
+    },
+    {
+      "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "site/sections/Content/Hero.tsx",

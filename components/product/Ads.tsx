@@ -24,12 +24,12 @@ export default function ProductAds({
   message =
     "Lorem ipsum dolor sit amet consectetur adipiscing elit sed euismod tincidunt dapibus",
   image =
-    "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+    "https://deco-camp--deco-camp-wesley.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fozksgdmyrqcxcwhnbepg.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fassets%2F10470%2F2a941f65-091a-4f54-94ac-b22eb0375ac9&fit=cover&width=120&height=120",
 }: Props) {
   return (
     <>
       {renderSection(sections[activeIndex])}
-      <div class="container px-3 sm:px-0 flex flex-col sm:flex-row align-start gap-3">
+      <div class="container px-3 sm:px-0 flex flex-col sm:flex-row align-start gap-3 py-10">
         <div class="flex flex-col items-center justify-start gap-2">
           <div class="avatar">
             <div class="w-24 rounded-full">
@@ -44,7 +44,7 @@ export default function ProductAds({
             </div>
           </div>
           <button
-            class="flex bg-sky-500 text-white grow-0 rounded hover:bg-sky-400 text-nowrap px-3 py-2 h-auto"
+            class="flex bg-black text-white grow-0 rounded text-nowrap px-3 py-2 h-auto"
             {...usePartialSection<typeof ProductAds>({
               props: {
                 activeIndex: activeIndex + 1 >= sections.length
@@ -53,10 +53,10 @@ export default function ProductAds({
               },
             })}
           >
-            Próximo anúncio
+           Next ad
           </button>
         </div>
-        <div class="bg-gray-100 p-3 rounded">{message}</div>
+        <div class="bg-gray-100 p-3 rounded pb-10">{message}</div>
       </div>
     </>
   );

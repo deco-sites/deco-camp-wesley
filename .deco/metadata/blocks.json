@@ -364,5 +364,9 @@
     "path": "/test",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Factions%2Flikes.ts.json": {
+    "blockType": "actions",
+    "__resolveType": "site/actions/likes.ts"
   }
 }

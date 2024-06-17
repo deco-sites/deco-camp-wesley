@@ -1,1 +1,36 @@
-{"name":"Search","path":"/s","sections":[{"type":"website","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Deco.cx","descriptionTemplate":"%s | Deco.cx"},{"__resolveType":"Header - 01"},{"page":{"__resolveType":"PLP Loader"},"layout":{"columns":{"mobile":2,"desktop":4},"variant":"aside"},"__resolveType":"site/sections/Product/SearchResult.tsx"},{"__resolveType":"Footer - 01"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Search",
+  "path": "/s",
+  "sections": [
+    {
+      "type": "website",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "Conexões culturais",
+      "descriptionTemplate": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "description": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "title": "Conexões culturais",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/c3aa4c36-e08a-4ac0-a511-360a230146c8",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/3441bc2d-7802-4804-b11f-5c5c668a5467"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      },
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

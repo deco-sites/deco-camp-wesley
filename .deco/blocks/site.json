@@ -1,1 +1,67 @@
-{"seo":{"type":"website","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56","title":"Storefront","jsonLDs":[],"noIndexing":false,"description":"Improve your page performance with deco.cx ","titleTemplate":"%s | deco.cx","descriptionTemplate":"%s | Deco.cx"},"theme":{"__resolveType":"Fashion theme"},"global":[{"__resolveType":"website/sections/Analytics/Analytics.tsx","dangerouslyRunOnMainThread":true},{"__resolveType":"algolia/sections/Analytics/Algolia.tsx"},{"__resolveType":"analytics/sections/Analytics/DecoAnalytics.tsx"},{"__resolveType":"htmx/sections/htmx.tsx"}],"routes":[{"__resolveType":"vtex/loaders/proxy.ts","includeSiteMap":[],"extraPathsToProxy":[],"includeScriptsToHead":{"includes":[{"__resolveType":"analytics/loaders/DecoAnalyticsScript.ts"}],"includePlausible":true}},{"__resolveType":"website/loaders/pages.ts"},{"__resolveType":"website/loaders/redirects.ts"}],"caching":{"directives":[]},"commerce":{"platform":"other"},"platform":"vtex","__resolveType":"site/apps/site.ts","firstByteThresholdMS":true,"abTesting":{"replaces":[],"includeScriptsToHead":{"includes":[]}}}
+{
+  "seo": {
+    "type": "website",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/5980a947-2bef-4511-98db-9bbc34aa6c0f",
+    "title": "Conexões culturais",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "description": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+    "titleTemplate": "%s | Conexões culturais",
+    "descriptionTemplate": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/cdc193a8-2bde-46d5-80cb-e3bea36cd87c"
+  },
+  "theme": {
+    "__resolveType": "Fashion theme"
+  },
+  "global": [
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "dangerouslyRunOnMainThread": true
+    },
+    {
+      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "includeSiteMap": [],
+      "extraPathsToProxy": [],
+      "includeScriptsToHead": {
+        "includes": [
+          {
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
+          }
+        ],
+        "includePlausible": true
+      }
+    },
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "platform": "other"
+  },
+  "platform": "vtex",
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": true,
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  }
+}
