@@ -100,8 +100,8 @@ export default function ProductAd({
       <div
         class={`flex flex-col relative ${vertical && "sm:flex-row"} gap-3 ${
           highlight && productLikes >= 3
-            ? "bg-gray-200 border-2 border-black"
-            : "bg-gray-100 border-2 border-transparent"
+            ? "bg-black border-2 border-white"
+            : "bg-black border-2 border-transparent"
         } p-3 rounded-xl my-5 min-h-[320px] max-h-[320px]`}
       >
         <a
@@ -125,16 +125,16 @@ export default function ProductAd({
           />
         </a>
         <div class={`flex flex-col items-start w-full ${!vertical && "mt-2"}`}>
-          <h2 class="text-lg font-bold uppercase">{name}</h2>
+          <h2 class="text-lg font-bold uppercase text-white">{name}</h2>
           {vertical && (
             <p class="grow">{!adDescription ? description : adDescription}</p>
           )}
-          <p class="font-bold sm:text-right">{formatPrice(price)}</p>
+          <p class="font-bold sm:text-right text-white">{formatPrice(price)}</p>
           <ProductReview image={image} title={name} productID={productID} />
           {!vertical &&
             (
               <div
-                class="tooltip absolute top-0 right-0 m-3 tooltip-left z-50"
+                class="tooltip absolute top-0 right-0 m-3 tooltip-left z-1"
                 data-tip={!adDescription ? description : adDescription}
               >
                 <button class="btn">know more</button>

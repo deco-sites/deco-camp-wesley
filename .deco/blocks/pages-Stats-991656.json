@@ -1,7 +1,17 @@
 {
   "name": "Stats",
   "path": "/stats",
-  "sections": [],
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/HTMXForm.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },

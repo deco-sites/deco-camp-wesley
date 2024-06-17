@@ -172,8 +172,8 @@ function ProductCard({
                     variant={link === relativeUrl
                       ? "active"
                       : link
-                      ? "default"
-                      : "disabled"}
+                        ? "default"
+                        : "disabled"}
                   />
                 </a>
               </li>
@@ -213,7 +213,8 @@ function ProductCard({
           aria-label="view product"
           class="btn btn-block"
         >
-          Ver produto
+
+          View product
         </a>
       </div>
     </div>

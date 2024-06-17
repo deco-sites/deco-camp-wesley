@@ -59,7 +59,6 @@ export default function ProductAds({
 
   return (
     <>
-      {/* <ProductAd {...products[activeIndex]} currentProductLikes={currentProductLikes} /> */}
       <div class="container px-3 sm:px-0 flex align-start gap-3">
         <div class="flex flex-col items-center justify-start gap-2">
           <div class="avatar">
@@ -77,7 +76,7 @@ export default function ProductAds({
               },
             })}
           >
-            Próximo anúncio
+           Next
           </button>
         </div>
         <div class="bg-gray-100 p-3 rounded">{message}</div>

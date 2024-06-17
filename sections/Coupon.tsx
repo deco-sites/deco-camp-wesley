@@ -1,18 +1,17 @@
 import CouponButton from "../islands/CouponButton.tsx";
 
 interface Props {
-  /** @title Código de Cupom */
+  /** @title coupon code */
   coupon: string;
 }
 
 export default function Coupon({
-  coupon = "Teste123",
+  coupon = "10off",
 }: Props) {
   return (
     <section class="relative bg-white text-black py-20 max-w-screen">
       <div class="mx-6 lg:container lg:mx-auto flex justify-center items-center flex-col gap-4">
-        <p>Não saia de mãos vazias! Leve esse cupom ;)</p>
-        <CouponButton couponCode={coupon} />
+        <p> Utilize o código  <CouponButton couponCode={coupon} /> e receba o desconto em qualquer serviço que escolher.</p>
       </div>
     </section>
   );

@@ -40,7 +40,7 @@ export default function HTMXForm({
   return (
     <>
       <form
-        class="container"
+        class="container bg-black"
         hx-on="htmx:beforeRequest: disableForm, htmx:afterRequest: enableForm"
         hx-post={useSection({
           props: {
@@ -51,30 +51,32 @@ export default function HTMXForm({
         hx-target="closest section"
         hx-indicator="#submitButton"
       >
-        <label class="form-control">
-          <div class="label">
-            <span class="label-text">Lembrete:</span>
-          </div>
-          <textarea
-            name="reminder"
-            class="reminder textarea textarea-bordered h-24"
-            required
-            minLength={5}
-            placeholder="Escreva um lembrete"
-          />
-        </label>
-        <button
-          id="submitButton"
-          class="btn mt-2"
-          type="submit"
-        >
-          Adicionar Lembrete
-        </button>
+        <div class="md:p-10">
+          <label class="form-control">
+            <div class="label">
+              <span class="label-text text-white">Reminder:</span>
+            </div>
+            <textarea
+              name="reminder"
+              class="reminder textarea textarea-bordered h-24 max-w-400"
+              required
+              minLength={5}
+              placeholder="Write a Reminder"
+            />
+          </label>
+          <button
+            id="submitButton"
+            class="btn mt-2"
+            type="submit"
+          >
+            Add Reminder
+          </button>
+        </div>
       </form>
-      <div class="container">
-        <ul class="flex gap-2 my-3" id="reminders">
-          {reminders.map((reminder) => (
-            <li class="bg-gray-100 rounded p-3" key={reminder}>
+      <div className="container">
+        <ul className="flex md:flex-col gap-2 my-3" id="reminders">
+          {reminders.map((reminder, index) => (
+            <li className="bg-gray-100 rounded p-3" key={index}>
               {reminder}
             </li>
           ))}

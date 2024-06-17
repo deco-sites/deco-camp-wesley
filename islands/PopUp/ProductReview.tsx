@@ -27,7 +27,7 @@ export default function ProductReview({
       await invoke.site.actions.likes({ productID, comment: comment.value });
 
       Toastify({
-        text: "Comentário salvo com sucesso.",
+        text: "Comment saved successfully.",
         close: true,
         gravity: "bottom",
         duration: 5000,
@@ -50,7 +50,7 @@ export default function ProductReview({
       console.error("error:", err);
 
       Toastify({
-        text: "Houve um erro. Tente novamente mais tarde.",
+        text: "There was an error. Please try again later.",
         close: true,
         gravity: "bottom",
         duration: 5000,
@@ -75,7 +75,7 @@ export default function ProductReview({
       </button>
       {displayModal.value && (
         <Modal loading="lazy" open>
-          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-bordered bg-base-100 p-7 rounded-md">
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-bordered bg-black p-7 border border-white rounded-md">
             <form
               onSubmit={handleSubmit}
               className="flex flex-col sm:flex-row items-start gap-3"
@@ -88,10 +88,10 @@ export default function ProductReview({
                 height={150}
               />
               <div>
-                <h2 class="text-lg font-bold">{title}</h2>
+                <h2 class="text-lg font-bold text-white">{title}</h2>
                 <label className="form-control mb-3 w-64">
                   <div className="label">
-                    <span className="label-text">Observações</span>
+                    <span className="label-text text-white">Comments</span>
                   </div>
                   <textarea
                     onInput={(event) => {
@@ -99,16 +99,16 @@ export default function ProductReview({
                     }}
                     value={comment.value}
                     required
-                    className="textarea textarea-bordered h-24"
+                    className="h-24 text-white bg-black border border-white rounded-md"
                     minLength={5}
-                    placeholder="Seu texto aqui"
+                    placeholder="Your text here"
                   />
                 </label>
                 <div class="flex justify-end gap-3">
                   <Button onClick={() => displayModal.value = false}>
-                    Cancelar
+                    Cancel
                   </Button>
-                  <Button type="submit">Publicar</Button>
+                  <Button type="submit">Publish</Button>
                 </div>
               </div>
             </form>

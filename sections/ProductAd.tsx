@@ -3,7 +3,7 @@ import { asset } from "$fresh/runtime.ts";
 
 export function ErrorFallback() {
   return (
-    <div class="container px-3 sm:px-0">
+    <div class="container px-3 sm:px-0 bg-black">
       <div
         class={`flex flex-col sm:flex-row gap-3 p-3 rounded-xl my-5 min-h-[320px] max-h-[320px]`}
       >
@@ -16,11 +16,11 @@ export function ErrorFallback() {
           style={{ transition: "all .3s ease" }}
         />
         <div class="flex flex-col gap-3 items-start w-full mt-5">
-          <h2 class="text-lg font-bold uppercase">
-            Descuple :(, não foi possível processar sua solicitação
+          <h2 class="text-lg font-bold uppercase text-white">
+           Sorry, we were unable to process your request
           </h2>
           <p class="grow">
-            Por favor, tente novamente mais tarde ou entre em contato conosco.
+          Please try again later or contact us.
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ export function ErrorFallback() {
 
 export function LoadingFallback() {
   return (
-    <div class="container px-3 sm:px-0">
+    <div class="container px-3 sm:px-0 bg-black">
       <div
         class={`flex w-fit flex-col sm:flex-row gap-3 p-3 rounded-xl my-5 min-h-[320px] max-h-[320px]`}
       >

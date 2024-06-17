@@ -343,15 +343,19 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Quem%2520somos-533651.json": {
-    "name": "Quem somos",
-    "path": "/quem-somos",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Stats-991656.json": {
     "name": "Stats",
     "path": "/stats",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FHeader%2FHeader.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header/Header.tsx"
+  },
+  "/.deco/blocks/pages-Quem%2520somos-970002.json": {
+    "name": "Quem somos",
+    "path": "/quem-somos",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
