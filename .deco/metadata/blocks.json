@@ -353,12 +353,6 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Header/Header.tsx"
   },
-  "/.deco/blocks/pages-quem%2520somos-355437.json": {
-    "name": "quem somos",
-    "path": "/quem-somos",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Test-988026.json": {
     "name": "Test",
     "path": "/test",
@@ -368,5 +362,9 @@
   "/.deco/blocks/Preview%20site%2Factions%2Flikes.ts.json": {
     "blockType": "actions",
     "__resolveType": "site/actions/likes.ts"
+  },
+  "/.deco/blocks/Preview%20site%2Floaders%2FLastCommitOnGithub.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/LastCommitOnGithub.ts"
   }
 }

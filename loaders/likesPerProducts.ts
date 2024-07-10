@@ -15,7 +15,7 @@ export default async function loader(
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": "wesley",
+        "x-api-key": "wesleymoraesserafim",
       },
     },
   );

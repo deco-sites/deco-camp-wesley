@@ -17,7 +17,7 @@ export default async function sendLikesAction(
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": "wesley",
+      "x-api-key": "wesleymoraesserafim",
     },
     body: JSON.stringify({
       productId: productID,
