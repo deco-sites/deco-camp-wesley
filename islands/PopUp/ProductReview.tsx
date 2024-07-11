@@ -27,14 +27,19 @@ export default function ProductReview({
       await invoke.site.actions.likes({ productID, comment: comment.value });
 
       Toastify({
-        text: "Comment saved successfully.",
-        close: true,
+        text: "Comentário salvo com sucesso.",
+        close: false,
         gravity: "bottom",
         duration: 5000,
         position: "center",
         stopOnFocus: true,
         style: {
           background: "#27ae60",
+          position: "fixed",
+          right: "10px",
+          color: "white",
+          padding: "20px",
+          borderRadius: "10px",
         },
       }).showToast();
 
@@ -50,14 +55,20 @@ export default function ProductReview({
       console.error("error:", err);
 
       Toastify({
-        text: "There was an error. Please try again later.",
-        close: true,
+        text: "Ops. Houve um erro, tente novamente mais tarde!.",
+        close: false,
         gravity: "bottom",
         duration: 5000,
         position: "center",
         stopOnFocus: true,
         style: {
           background: "#c0392b",
+          position: "fixed",
+          right: "10px",
+          color: "white",
+          padding: "20px",
+          borderRadius: "10px",
+        
         },
       }).showToast();
 
@@ -75,7 +86,7 @@ export default function ProductReview({
       </button>
       {displayModal.value && (
         <Modal loading="lazy" open>
-          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-bordered bg-black p-7 border border-white rounded-md">
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-bordered bg-base-100 p-7 rounded-md">
             <form
               onSubmit={handleSubmit}
               className="flex flex-col sm:flex-row items-start gap-3"
@@ -88,10 +99,10 @@ export default function ProductReview({
                 height={150}
               />
               <div>
-                <h2 class="text-lg font-bold text-white">{title}</h2>
+                <h2 class="text-lg font-bold">{title}</h2>
                 <label className="form-control mb-3 w-64">
                   <div className="label">
-                    <span className="label-text text-white">Comments</span>
+                    <span className="label-text">Observações</span>
                   </div>
                   <textarea
                     onInput={(event) => {
@@ -99,16 +110,16 @@ export default function ProductReview({
                     }}
                     value={comment.value}
                     required
-                    className="h-24 text-white bg-black border border-white rounded-md"
+                    className="textarea textarea-bordered h-24"
                     minLength={5}
-                    placeholder="Your text here"
+                    placeholder="Seu texto aqui"
                   />
                 </label>
                 <div class="flex justify-end gap-3">
                   <Button onClick={() => displayModal.value = false}>
-                    Cancel
+                    Cancelar
                   </Button>
-                  <Button type="submit">Publish</Button>
+                  <Button type="submit">Publicar</Button>
                 </div>
               </div>
             </form>

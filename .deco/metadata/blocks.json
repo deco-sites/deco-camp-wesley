@@ -366,5 +366,11 @@
   "/.deco/blocks/Preview%20site%2Floaders%2FLastCommitOnGithub.ts.json": {
     "blockType": "loaders",
     "__resolveType": "site/loaders/LastCommitOnGithub.ts"
+  },
+  "/.deco/blocks/pages-quem%2520somos-97662.json": {
+    "name": "quem somos",
+    "path": "/quem-somos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

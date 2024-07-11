@@ -70,10 +70,11 @@ export default function HTMXForm({
                 </button>
             </form>
             <div class="container">
-                <ul class="flex gap-2 my-3" id="reminders">
+                <ul class="flex flex-col gap-2 my-3" id="reminders">
                     {
                         reminders.map(reminder => (
                             <li class="bg-gray-100 rounded p-3" key={reminder}>
+                                <span>{reminder.length}</span>
                                 {reminder}
                             </li>
                         ))

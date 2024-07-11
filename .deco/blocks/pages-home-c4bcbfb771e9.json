@@ -3,11 +3,11 @@
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/152f1596-b23c-45f0-8fc9-f48faae26735",
       "title": "Conexões culturais",
       "titleTemplate": "Conexões culturais",
       "description": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
       "descriptionTemplate": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/152f1596-b23c-45f0-8fc9-f48faae26735",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/e62877a7-1137-4c4b-a5af-9a317dd7c5d0"
     },
     {
@@ -19,17 +19,27 @@
         {
           "__resolveType": "site/sections/ProductAd.tsx",
           "product": {
-            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
-          }
+            "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+            "similars": false,
+            "slug": "vestido-pure"
+          },
+          "vertical": true
         },
         {
           "__resolveType": "site/sections/ProductAd.tsx",
           "product": {
-            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
-          }
+            "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+            "slug": {
+              "__resolveType": "website/functions/requestToParam.ts",
+              "param": "CAMISA POLO SUNSET PP"
+            }
+          },
+          "adDescription": "rem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum bibendum mauris, a iaculis nisi placerat eget. Nulla tincidunt libero ex. Nam ultricies vel turpis ut mattis. ",
+          "animateImage": true,
+          "relatedProduct": []
         }
       ],
-      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum bibendum mauris, a iaculis nisi placerat eget. Nulla tincidunt libero ex. Nam ultricies vel turpis ut mattis. Mauris nec sodales magna. Etiam ullamcorper neque quis felis sollicitudin, fringilla congue ante ultricies. Aliquam feugiat leo hendrerit nisi fermentum efficitur.\n",
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum bibendum mauris, a iaculis nisi placerat eget. Nulla tincidunt libero ex. Nam ultricies vel turpis ut mattis. Mauris nec sodales magna. Etiam ullamcorper neque quis felis sollicitudin, fringilla congue ante ultricies. Aliquam feugiat leo hendrerit nisi fermentum efficitur.",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/2a941f65-091a-4f54-94ac-b22eb0375ac9"
     },
     {

@@ -1,0 +1,45 @@
+{
+  "name": "quem somos",
+  "path": "/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Quem Somos"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Content/Hero.tsx",
+      "title": "Conexões Culturais",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10470/24ed0a5a-1ebd-4cdb-a2b3-45a0b8e29ded",
+      "placement": "left",
+      "cta": [
+        {
+          "variant": "Normal",
+          "href": "/conhecer",
+          "text": "conhecer"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/Intro.tsx",
+      "text": "What is Lorem Ipsum?",
+      "subheading": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "alignment": "Left"
+    },
+    {
+      "__resolveType": "site/sections/Content/Cupom.tsx",
+      "coupon": "primeira-10",
+      "description": "Cupom de desconto"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

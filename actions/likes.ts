@@ -1,29 +1,30 @@
-import { AppContext } from "../apps/site.ts";
+import { FnContext } from "deco/mod.ts";
 
 export interface Props {
-  productID: string;
+  productId: string;
   comment: string;
 }
 
-export default async function sendLikesAction(
-  { productID, comment }: Props,
+export default async function sendVote(
+  props: Props,
   _req: Request,
-  ctx: AppContext,
+  _ctx: FnContext,
 ) {
-  console.log("data");
-  const key = ctx.likes.get();
-  console.log("KEY:", key);
   const response = await fetch("https://camp-api.deco.cx/event", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": "wesleymoraesserafim",
+      "x-api-key": "wesley",
     },
     body: JSON.stringify({
-      productId: productID,
-      comment,
+      "productId": props.productId,
+      "coment": props.comment,
     }),
   });
 
-  return response.json();
+  if (response.ok) {
+    return { status: "ok" };
+  } else {
+    return { status: "failure" };
+  }
 }
